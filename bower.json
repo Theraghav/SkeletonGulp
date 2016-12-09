@@ -1,0 +1,48 @@
+{
+  "name": "contracting-app",
+  "version": "0.0.1",
+  "description": "This app would help contractor, consultant and client-company to communicate and help in invoice and contract management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sandeepverma.visualstudio.com/ContractingApp/ContractingApp%20Team/_git/3CWebApp"
+  },
+  "keywords": [],
+  "author": "Sandeep Verma",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular-cookies": "^1.5.7"
+  },
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "angular": "^1.6.0",
+    "angular-sanitize": "~1.5.3",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-animate": "^1.5.3",
+    "angular-bootstrap": "^1.2.5",
+    "angular-cookies": "^1.5.7",
+    "angular-material": "^1.1.1"
+  },
+  "resolutions": {
+    "angular": ">=1.6.0",
+    "jquery": "^2.2.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
